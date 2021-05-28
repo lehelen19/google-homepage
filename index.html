@@ -14,13 +14,35 @@
         display: inline-block;
     }
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-nav {
+        display: inline;
+        float: left;
+    }
+
+    .right-nav {
+        display: inline;
+        float: right;
+    }
+
 </style>
 <head>
     <!--this will be the nav bar-->
+    <ul>
+        <li class="left-nav"><a href="#"> About </a></li>
+        <li class="left-nav"><a href="#"> Store </a></li>
+        <li class="right-nav"><a href="#"> Gmail </a></li>
+        <li class="right-nav"><a href="#"> Images </a></li>
+    </ul>
 </head>
 <body>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="img-center">
-    
+
     <form action="search">
         <input name="search" type="text">
     </form>
