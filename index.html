@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <style>
+    * {
+        font-family: sans-serif;
+    }
+
+    .nav-font-size {
+        font-size: 14px;
+    }
+
     .img-center {
         display: block;
         margin-left: auto;
@@ -16,8 +24,7 @@
 
     ul {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        padding: 8px;
     }
 
     .left-nav {
@@ -33,10 +40,11 @@
     a {
         color: black;
         text-decoration: none;
+        text-align: center;
+        padding: 10px 10px;
     }
 
     li a:hover {
-        display: block;
         color: black;
         text-decoration: underline;
     }
@@ -44,11 +52,11 @@
 </style>
 <head>
     <!--this will be the nav bar-->
-    <ul>
+    <ul class = "nav-font-size">
         <li class="left-nav"><a href="#"> About </a></li>
         <li class="left-nav"><a href="#"> Store </a></li>
-        <li class="right-nav"><a href="#"> Gmail </a></li>
         <li class="right-nav"><a href="#"> Images </a></li>
+        <li class="right-nav"><a href="#"> Gmail </a></li>
     </ul>
 </head>
 <body>
