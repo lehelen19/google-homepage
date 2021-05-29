@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <style>
     * {
         font-family: sans-serif;
@@ -16,6 +17,8 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
+        top: 185px;
     }
 
     body {
@@ -70,9 +73,27 @@
     </ul>
 </head>
 <body>
+    <style>
+        input {
+            position: relative;
+            top: 210px;
+            border-radius: 25px;
+            width: 572px;
+            height: 40px;
+            border-color: lightgray;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    </style>
+
+
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="img-center">
 
     <form action="search">
         <input name="search" type="text">
     </form>
+
+</html>
 </body>
